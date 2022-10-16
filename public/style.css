@@ -1,0 +1,53 @@
+#header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 217, 176);
+    border: solid black;
+    font-size: 30px;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(255, 237, 210);
+}
+.wrapContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.graphicContainer{
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(187, 163, 127);
+    align-items: center;
+    width: 24%;
+    border: solid rgb(94, 64, 40);
+}
+.puppyId{
+    color:rgb(9, 36, 160)
+}
+.idNum{
+    color: rgb(248, 211, 0);
+}
+.puppyName{
+    font-size: 30px;
+    margin: 1px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(9, 36, 160)
+}
+.puppyImage{
+    width: 90%;
+    /* height: 200px; */
+    border: solid black;
+    margin-bottom: 20px;
+}
+.horizontalContainer{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    border: solid, rgb(94, 64, 40);
+}
+.info{
+    margin: 5px;
+    margin-bottom: 20px;
+}
